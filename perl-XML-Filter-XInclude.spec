@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-XInclude
+%define		pdir	XML
+%define		pnam	Filter-XInclude
 Summary:	XML::Filter::XInclude - XInclude as a SAX filter
 Summary(pl):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
