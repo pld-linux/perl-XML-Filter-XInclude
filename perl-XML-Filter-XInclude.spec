@@ -27,7 +27,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The XML::Filter::XInclude Perl module implements a simple SAX filter
-that provides XInclude support.  It does NOT support XPointer.
+that provides XInclude support. It does NOT support XPointer.
 
 %description -l pl
 Modu³ Perla XML::Filter::XInclude stanowi implementacjê filtra
