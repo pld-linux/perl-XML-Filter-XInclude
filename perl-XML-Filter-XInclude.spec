@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-XInclude
-Summary:	XML::Filter::XInclude - XInclude as a SAX Filter
-#Summary(pl):	
+Summary:	XML::Filter::XInclude - XInclude as a SAX filter
+Summary(pl):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
 Version:	1.0
 Release:	1
@@ -25,11 +25,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module implements a simple SAX filter that provides XInclude
-support. It does I<NOT> support XPointer.
+The XML::Filter::XInclude Perl module implements a simple SAX filter
+that provides XInclude support.  It does NOT support XPointer.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Perla XML::Filter::XInclude stanowi implementacjê filtra
+obejmuj±cego wsparcie dla XInclude. NIE wspiera on XPointer.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
