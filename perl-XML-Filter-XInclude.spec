@@ -9,7 +9,7 @@ Summary:	XML::Filter::XInclude - XInclude as a SAX filter
 Summary(pl):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
 Version:	1.0
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,6 +20,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-URI
 BuildRequires:	perl-XML-SAX >= 0.05
+BuildRequires:	perl-XML-SAX-Writer
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
