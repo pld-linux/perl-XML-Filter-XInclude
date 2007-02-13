@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-XInclude
 Summary:	XML::Filter::XInclude - XInclude as a SAX filter
-Summary(pl.UTF-8):   XML::Filter::XInclude - XInclude jako filtr SAX
+Summary(pl.UTF-8):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
 Version:	1.0
 Release:	2
