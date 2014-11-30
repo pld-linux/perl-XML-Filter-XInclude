@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-XInclude
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::XInclude - XInclude as a SAX filter
 Summary(pl.UTF-8):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6fd41f32027f3dbf6993fcef0ee81578
+URL:		http://search.cpan.org/dist/XML-Filter-XInclude/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
