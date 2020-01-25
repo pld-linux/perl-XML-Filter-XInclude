@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-XInclude
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::XInclude - XInclude as a SAX filter
 Summary(pl.UTF-8):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
