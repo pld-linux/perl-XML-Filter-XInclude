@@ -8,7 +8,7 @@ Summary:	XML::Filter::XInclude - XInclude as a SAX filter
 Summary(pl.UTF-8):	XML::Filter::XInclude - XInclude jako filtr SAX
 Name:		perl-XML-Filter-XInclude
 Version:	1.0
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
